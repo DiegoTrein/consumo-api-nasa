@@ -21,9 +21,11 @@ const ApiComponent = () => {
 
   return (
     <div>
-      <h1>Exemplo de Consumo de API da NASA</h1>
+      
       {data.title && (
         <div>
+          
+          
           <h2>{data.title}</h2>
           <img src={data.url} alt={data.title} style={{ maxWidth: '500px' }} />
           <p>{data.explanation}</p>
